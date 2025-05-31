@@ -1,0 +1,31 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestor de Cursos</title>
+  </head>
+  <body>
+    <h1>Cursos:</h1>
+
+
+    <form id ="form-curso">
+      <input type="text" id="titulo" placeholder="Nombre del curso" required />
+      <input type="numver" id="duracion" placeholder="Duración (en horas)" required />
+      <input type="text" id="categoria" placeholder="Categoría del curso" required />
+
+      <label>
+        <input type="checkbox" id="completado" checked />
+        ¿Completado?
+      </label>
+
+      <button type="submit">Agregar curso</button>
+    </form>
+
+    <ul id="lista-cursos"></ul>
+
+    <script type="module" src="../src/main.js"></script>
+   
+  </body>
+</html>
+      
