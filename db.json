@@ -1,13 +1,6 @@
 {
   "cursos": [
     {
-      "id": "1",
-      "titulo": "Curso de JavaScript Moderno",
-      "duracion": 10,
-      "categoria": "Frontend",
-      "completado": false
-    },
-    {
       "id": "2",
       "titulo": "Curso de Backend con Node.js",
       "duracion": 12,
@@ -15,17 +8,24 @@
       "completado": true
     },
     {
-      "id": "d56b",
-      "titulo": "React",
-      "duracion": 10,
-      "categoria": "Frontend",
-      "completado": true
-    },
-    {
       "id": "0b8a",
       "titulo": "Angular",
       "duracion": 10,
       "categoria": "Frontend",
+      "completado": false
+    },
+    {
+      "id": "1f0d",
+      "titulo": "Node con Express",
+      "duracion": 18,
+      "categoria": "Backend",
+      "completado": true
+    },
+    {
+      "id": "3dd3",
+      "titulo": "React",
+      "duracion": 15,
+      "categoria": "Programación",
       "completado": false
     }
   ]
