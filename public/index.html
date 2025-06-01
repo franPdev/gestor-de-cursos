@@ -16,42 +16,66 @@
 
   <h1 class="mb-4">Gestor de Cursos</h1>
 
-  <!-- Formulario Bootstrap -->
+  <!-- switch para modo oscuro  -->
+
+  <div class="form-check form switch mb-3">
+    <input class="form-check-input" type="checkbox" id="toggleDarkMode">
+    <label class="form-check-label" for="toggleDarkMode">Modo Oscuro</label>
+  </div>
  
-  <form id="form-curso" class="mb-4">
-  <div class="row g-3">
-    <div class="col-md-6">
-      <label for="titulo" class="form-label">Título</label>
-      <input type="text" class="form-control" id="titulo" required>
-    </div>
-
-    <div class="col-md-3">
-      <label for="duracion" class="form-label">Duración (horas)</label>
-      <input type="number" class="form-control" id="duracion" min="1" required>
-    </div>
-
-    <div class="col-md-3">
-      <label for="categoria" class="form-label">Categoría</label>
-      <select id="categoria" class="form-select" required>
-        <option value="">Seleccione</option>
-        <option value="Programación">Programación</option>
-        <option value="Diseño">Diseño</option>
-        <option value="Marketing">Marketing</option>
-      </select>
-    </div>
+  
 
     <div class="col-12">
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="completado">
-        <label for="completado" class="form-check-label">Completado</label>
-      </div>
-    </div>
+      <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#cursoModal">
+      Agregar Curso
+     </button>
 
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Agregar Curso</button>
     </div>
   </div>
 </form>
+
+<div class="modal fade" id="cursoModal" tabindex="-1" aria-labelledby="cursoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form id="form-curso">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cursoModalLabel">Agregar Curso</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" id="titulo" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="duracion" class="form-label">Duración (horas)</label>
+            <input type="number" id="duracion" class="form-control" min="1" required>
+          </div>
+          <div class="mb-3">
+            <label for="categoria" class="form-label">Categoría</label>
+            <select id="categoria" class="form-select" required>
+              <option value="">Seleccione...</option>
+              <option value="programacion">Programación</option>
+              <option value="diseño">Diseño</option>
+              <option value="marketing">Marketing</option>
+              <!-- Agrega las categorías que quieras -->
+            </select>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" id="completado" class="form-check-input">
+            <label for="completado" class="form-check-label">Completado</label>
+          </div>
+          <!-- Aquí agregamos el nuevo campo descripción en el siguiente paso -->
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 
   <!-- Lista de cursos -->
   <ul id="lista-cursos" class="list-group"></ul>
