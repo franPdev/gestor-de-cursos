@@ -1,32 +1,333 @@
 {
   "cursos": [
     {
-      "id": "2",
-      "titulo": "Curso de Backend con Node.js",
-      "duracion": 12,
-      "categoria": "Backend",
+      "id": "0e9d",
+      "titulo": "React",
+      "duracion": 18,
+      "categoria": "Frontend",
+      "completado": false
+    },
+    {
+      "titulo": "Node con Express",
+      "duracion": 18,
+      "categoria": "Frontend",
+      "completado": false,
+      "id": "404c"
+    },
+    {
+      "id": "a1b2",
+      "titulo": "JavaScript Intermedio",
+      "duracion": 15,
+      "categoria": "Frontend",
       "completado": true
     },
     {
-      "id": "0b8a",
-      "titulo": "Angular",
+      "id": "c3d4",
+      "titulo": "HTML y CSS desde cero",
       "duracion": 10,
       "categoria": "Frontend",
       "completado": false
     },
     {
-      "id": "1f0d",
-      "titulo": "Node con Express",
-      "duracion": 18,
+      "id": "e5f6",
+      "titulo": "Angular Básico",
+      "duracion": 20,
+      "categoria": "Frontend",
+      "completado": false
+    },
+    {
+      "id": "g7h8",
+      "titulo": "Vue.js Avanzado",
+      "duracion": 25,
+      "categoria": "Frontend",
+      "completado": true
+    },
+    {
+      "id": "i9j0",
+      "titulo": "Python para Principiantes",
+      "duracion": 22,
       "categoria": "Backend",
       "completado": true
     },
     {
-      "id": "3dd3",
-      "titulo": "React",
-      "duracion": 15,
+      "id": "k1l2",
+      "titulo": "Django Framework",
+      "duracion": 30,
+      "categoria": "Backend",
+      "completado": false
+    },
+    {
+      "id": "m3n4",
+      "titulo": "Bases de Datos con MySQL",
+      "duracion": 18,
+      "categoria": "Base de Datos",
+      "completado": false
+    },
+    {
+      "id": "o5p6",
+      "titulo": "MongoDB desde Cero",
+      "duracion": 16,
+      "categoria": "Base de Datos",
+      "completado": true
+    },
+    {
+      "id": "q7r8",
+      "titulo": "Git y GitHub",
+      "duracion": 8,
+      "categoria": "Herramientas",
+      "completado": true
+    },
+    {
+      "id": "s9t0",
+      "titulo": "TypeScript Básico",
+      "duracion": 12,
+      "categoria": "Frontend",
+      "completado": false
+    },
+    {
+      "id": "u1v2",
+      "titulo": "Java SE",
+      "duracion": 28,
+      "categoria": "Programación",
+      "completado": true
+    },
+    {
+      "id": "w3x4",
+      "titulo": "Programación en C",
+      "duracion": 24,
       "categoria": "Programación",
       "completado": false
+    },
+    {
+      "id": "y5z6",
+      "titulo": "Docker para desarrolladores",
+      "duracion": 10,
+      "categoria": "DevOps",
+      "completado": true
+    },
+    {
+      "id": "a7b8",
+      "titulo": "Kubernetes básico",
+      "duracion": 18,
+      "categoria": "DevOps",
+      "completado": false
+    },
+    {
+      "id": "c9d0",
+      "titulo": "Seguridad Web",
+      "duracion": 14,
+      "categoria": "Ciberseguridad",
+      "completado": true
+    },
+    {
+      "id": "e1f2",
+      "titulo": "Criptografía básica",
+      "duracion": 16,
+      "categoria": "Ciberseguridad",
+      "completado": false
+    },
+    {
+      "id": "g3h4",
+      "titulo": "Linux para principiantes",
+      "duracion": 12,
+      "categoria": "Sistemas Operativos",
+      "completado": true
+    },
+    {
+      "id": "i5j6",
+      "titulo": "PowerShell avanzado",
+      "duracion": 9,
+      "categoria": "Herramientas",
+      "completado": false
+    },
+    {
+      "id": "k7l8",
+      "titulo": "Diseño UX/UI",
+      "duracion": 14,
+      "categoria": "Diseño",
+      "completado": true
+    },
+    {
+      "id": "m9n0",
+      "titulo": "Figma para diseñadores",
+      "duracion": 11,
+      "categoria": "Diseño",
+      "completado": false
+    },
+    {
+      "id": "o1p2",
+      "titulo": "Next.js",
+      "duracion": 20,
+      "categoria": "Frontend",
+      "completado": true
+    },
+    {
+      "id": "q3r4",
+      "titulo": "Express avanzado",
+      "duracion": 18,
+      "categoria": "Backend",
+      "completado": false
+    },
+    {
+      "id": "s5t6",
+      "titulo": "Spring Boot",
+      "duracion": 26,
+      "categoria": "Backend",
+      "completado": true
+    },
+    {
+      "id": "u7v8",
+      "titulo": "REST APIs",
+      "duracion": 10,
+      "categoria": "Backend",
+      "completado": false
+    },
+    {
+      "id": "w9x0",
+      "titulo": "GraphQL desde cero",
+      "duracion": 13,
+      "categoria": "Backend",
+      "completado": true
+    },
+    {
+      "id": "y1z2",
+      "titulo": "PostgreSQL avanzado",
+      "duracion": 19,
+      "categoria": "Base de Datos",
+      "completado": false
+    },
+    {
+      "id": "a3b4",
+      "titulo": "Firebase para Web",
+      "duracion": 15,
+      "categoria": "Base de Datos",
+      "completado": true
+    },
+    {
+      "id": "c5d6",
+      "titulo": "Scrum y metodologías ágiles",
+      "duracion": 8,
+      "categoria": "Gestión",
+      "completado": false
+    },
+    {
+      "id": "e7f8",
+      "titulo": "Testing con Jest",
+      "duracion": 10,
+      "categoria": "Testing",
+      "completado": true
+    },
+    {
+      "id": "g9h0",
+      "titulo": "Cypress desde cero",
+      "duracion": 12,
+      "categoria": "Testing",
+      "completado": false
+    },
+    {
+      "id": "i1j2",
+      "titulo": "Automatización con Selenium",
+      "duracion": 14,
+      "categoria": "Testing",
+      "completado": true
+    },
+    {
+      "id": "k3l4",
+      "titulo": "Desarrollo Móvil con React Native",
+      "duracion": 22,
+      "categoria": "Mobile",
+      "completado": false
+    },
+    {
+      "id": "m5n6",
+      "titulo": "Flutter para Android e iOS",
+      "duracion": 24,
+      "categoria": "Mobile",
+      "completado": true
+    },
+    {
+      "id": "o7p8",
+      "titulo": "Swift desde cero",
+      "duracion": 20,
+      "categoria": "Mobile",
+      "completado": false
+    },
+    {
+      "id": "q9r0",
+      "titulo": "Unity 3D Básico",
+      "duracion": 30,
+      "categoria": "Videojuegos",
+      "completado": false
+    },
+    {
+      "id": "s1t2",
+      "titulo": "Unreal Engine Introducción",
+      "duracion": 28,
+      "categoria": "Videojuegos",
+      "completado": true
+    },
+    {
+      "id": "u3v4",
+      "titulo": "C# para videojuegos",
+      "duracion": 18,
+      "categoria": "Programación",
+      "completado": true
+    },
+    {
+      "id": "w5x6",
+      "titulo": "Blender 3D",
+      "duracion": 26,
+      "categoria": "Diseño",
+      "completado": false
+    },
+    {
+      "id": "y7z8",
+      "titulo": "Photoshop desde cero",
+      "duracion": 15,
+      "categoria": "Diseño",
+      "completado": true
+    },
+    {
+      "id": "a9b0",
+      "titulo": "Ilustrator para principiantes",
+      "duracion": 14,
+      "categoria": "Diseño",
+      "completado": false
+    },
+    {
+      "id": "c1d2",
+      "titulo": "SEO para desarrolladores",
+      "duracion": 9,
+      "categoria": "Marketing",
+      "completado": false
+    },
+    {
+      "id": "e3f4",
+      "titulo": "Google Analytics",
+      "duracion": 10,
+      "categoria": "Marketing",
+      "completado": true
+    },
+    {
+      "id": "g5h6",
+      "titulo": "Diseño Responsive",
+      "duracion": 11,
+      "categoria": "Frontend",
+      "completado": true
+    },
+    {
+      "id": "i7j8",
+      "titulo": "Accesibilidad Web",
+      "duracion": 12,
+      "categoria": "Frontend",
+      "completado": false
+    },
+    {
+      "id": "k9l0",
+      "titulo": "API REST con Laravel",
+      "duracion": 17,
+      "categoria": "Backend",
+      "completado": true
     }
   ]
 }
