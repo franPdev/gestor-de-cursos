@@ -12,4 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.toggle('dark-mode');
     localStorage.setItem('modoOscuro', body.classList.contains('dark-mode'));
   });
+
+  
 });

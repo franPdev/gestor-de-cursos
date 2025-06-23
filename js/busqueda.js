@@ -2,20 +2,19 @@ let cursos = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   const buscador = document.getElementById("buscador");
-const resultado = document.getElementById("lista-cursos");
 
-  fetch("../db.json")
+  fetch("http://localhost:3000/cursos") // Usa la misma URL que en main.js
     .then((res) => res.json())
     .then((data) => {
-      cursos = data.cursos;
-      mostrarCursos(cursos);
+      cursos = data;
+      window.mostrarCursos(cursos); // Usa la función global de main.js
     })
     .catch((err) => {
-      resultado.innerHTML = "<p>Error al cargar los cursos.</p>";
-      console.error("Error al cargar db.json:", err);
+      document.getElementById("lista-cursos").innerHTML =
+        "<p>Error al cargar los cursos.</p>";
+      console.error("Error al cargar los cursos:", err);
     });
 
-  // Escuchar mientras escribís (input event)
   buscador.addEventListener("input", () => {
     const texto = buscador.value.toLowerCase().trim();
 
@@ -25,8 +24,9 @@ const resultado = document.getElementById("lista-cursos");
         curso.categoria.toLowerCase().includes(texto)
     );
 
-    mostrarCursos(filtrados);
+    window.mostrarCursos(filtrados); // Siempre usa la función global
   });
+});
 
 function mostrarCursos(lista) {
   const resultado = document.getElementById("lista-cursos");
@@ -44,10 +44,14 @@ function mostrarCursos(lista) {
       <div class="card card-curso h-100">
         <div class="card-body">
           <h5 class="card-title">${curso.titulo}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Categoría: ${curso.categoria}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Categoría: ${
+            curso.categoria
+          }</h6>
           <p class="card-text">Duración: ${curso.duracion} horas</p>
-          <span class="badge ${curso.completado ? 'bg-success' : 'bg-warning text-dark'}">
-            ${curso.completado ? 'Completado' : 'Pendiente'}
+          <span class="badge ${
+            curso.completado ? "bg-success" : "bg-warning text-dark"
+          }">
+            ${curso.completado ? "Completado" : "Pendiente"}
           </span>
         </div>
       </div>
@@ -55,4 +59,3 @@ function mostrarCursos(lista) {
     resultado.appendChild(col);
   });
 }
-});
