@@ -5,329 +5,378 @@
       "titulo": "React",
       "duracion": 18,
       "categoria": "Frontend",
-      "completado": false
+      "descripcion": "Curso completo de React para principiantes",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
+      "id": "404c",
       "titulo": "Node con Express",
       "duracion": 18,
       "categoria": "Frontend",
+      "descripcion": "Aprende a crear servidores y APIs con Node.js y Express",
       "completado": false,
-      "id": "404c"
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
       "id": "a1b2",
       "titulo": "JavaScript Intermedio",
       "duracion": 15,
       "categoria": "Frontend",
-      "completado": true
+      "descripcion": "Domina conceptos intermedios de JavaScript moderno",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
     {
       "id": "c3d4",
       "titulo": "HTML y CSS desde cero",
       "duracion": 10,
       "categoria": "Frontend",
-      "completado": false
+      "descripcion": "Aprende a estructurar y diseñar sitios web con HTML y CSS",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     },
     {
       "id": "e5f6",
       "titulo": "Angular Básico",
       "duracion": 20,
       "categoria": "Frontend",
-      "completado": false
+      "descripcion": "Curso introductorio al framework Angular de Google",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
     },
     {
       "id": "g7h8",
       "titulo": "Vue.js Avanzado",
       "duracion": 25,
       "categoria": "Frontend",
-      "completado": true
+      "descripcion": "Profundiza en técnicas avanzadas con Vue.js",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
     },
     {
       "id": "i9j0",
       "titulo": "Python para Principiantes",
       "duracion": 22,
       "categoria": "Backend",
-      "completado": true
+      "descripcion": "Iníciate en la programación con Python desde cero",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     },
     {
       "id": "k1l2",
       "titulo": "Django Framework",
       "duracion": 30,
       "categoria": "Backend",
-      "completado": false
+      "descripcion": "Desarrolla aplicaciones web robustas con Django",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
     },
     {
       "id": "m3n4",
       "titulo": "Bases de Datos con MySQL",
       "duracion": 18,
       "categoria": "Base de Datos",
-      "completado": false
+      "descripcion": "Aprende a crear y gestionar bases de datos con MySQL",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
     {
       "id": "o5p6",
       "titulo": "MongoDB desde Cero",
       "duracion": 16,
       "categoria": "Base de Datos",
-      "completado": true
+      "descripcion": "Domina los fundamentos de las bases de datos NoSQL con MongoDB",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     },
     {
       "id": "q7r8",
       "titulo": "Git y GitHub",
       "duracion": 8,
       "categoria": "Herramientas",
-      "completado": true
+      "descripcion": "Gestiona versiones de tu código usando Git y GitHub",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     },
     {
       "id": "s9t0",
       "titulo": "TypeScript Básico",
       "duracion": 12,
       "categoria": "Frontend",
-      "completado": false
+      "descripcion": "Conoce los fundamentos de TypeScript para tipar tu código JavaScript",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     },
     {
       "id": "u1v2",
       "titulo": "Java SE",
       "duracion": 28,
       "categoria": "Programación",
-      "completado": true
+      "descripcion": "Aprende programación orientada a objetos con Java estándar",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
     },
     {
       "id": "w3x4",
       "titulo": "Programación en C",
       "duracion": 24,
       "categoria": "Programación",
-      "completado": false
+      "descripcion": "Curso introductorio al lenguaje C desde cero",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
     },
     {
       "id": "y5z6",
       "titulo": "Docker para desarrolladores",
       "duracion": 10,
       "categoria": "DevOps",
-      "completado": true
+      "descripcion": "Crea y gestiona contenedores con Docker en tus proyectos",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
     {
       "id": "a7b8",
       "titulo": "Kubernetes básico",
       "duracion": 18,
       "categoria": "DevOps",
-      "completado": false
-    },
-    {
-      "id": "c9d0",
-      "titulo": "Seguridad Web",
-      "duracion": 14,
-      "categoria": "Ciberseguridad",
-      "completado": true
-    },
-    {
-      "id": "e1f2",
-      "titulo": "Criptografía básica",
-      "duracion": 16,
-      "categoria": "Ciberseguridad",
-      "completado": false
+      "descripcion": "Orquesta contenedores con Kubernetes desde cero",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
     },
     {
       "id": "g3h4",
       "titulo": "Linux para principiantes",
       "duracion": 12,
       "categoria": "Sistemas Operativos",
-      "completado": true
+      "descripcion": "Comienza a usar Linux y sus herramientas básicas de terminal",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
     },
     {
       "id": "i5j6",
       "titulo": "PowerShell avanzado",
       "duracion": 9,
       "categoria": "Herramientas",
-      "completado": false
+      "descripcion": "Automatiza tareas en Windows con scripts avanzados en PowerShell",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
     },
     {
       "id": "k7l8",
       "titulo": "Diseño UX/UI",
       "duracion": 14,
       "categoria": "Diseño",
-      "completado": true
+      "descripcion": "Principios esenciales para diseñar experiencias de usuario efectivas",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
       "id": "m9n0",
       "titulo": "Figma para diseñadores",
       "duracion": 11,
       "categoria": "Diseño",
-      "completado": false
+      "descripcion": "Diseña interfaces modernas con Figma",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
       "id": "o1p2",
       "titulo": "Next.js",
       "duracion": 20,
       "categoria": "Frontend",
-      "completado": true
+      "descripcion": "Framework React para aplicaciones web con renderizado del lado del servidor",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
     {
       "id": "q3r4",
       "titulo": "Express avanzado",
       "duracion": 18,
       "categoria": "Backend",
-      "completado": false
+      "descripcion": "Aprende a crear APIs RESTful avanzadas con Express",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     },
     {
       "id": "s5t6",
       "titulo": "Spring Boot",
       "duracion": 26,
       "categoria": "Backend",
-      "completado": true
-    },
-    {
-      "id": "u7v8",
-      "titulo": "REST APIs",
-      "duracion": 10,
-      "categoria": "Backend",
-      "completado": false
+      "descripcion": "Desarrolla aplicaciones empresariales con Spring Boot",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
     },
     {
       "id": "w9x0",
       "titulo": "GraphQL desde cero",
       "duracion": 13,
       "categoria": "Backend",
-      "completado": true
+      "descripcion": "Aprende a crear APIs modernas con GraphQL",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
     },
     {
       "id": "y1z2",
       "titulo": "PostgreSQL avanzado",
       "duracion": 19,
       "categoria": "Base de Datos",
-      "completado": false
+      "descripcion": "Optimización y consultas avanzadas con PostgreSQL",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
       "id": "a3b4",
       "titulo": "Firebase para Web",
       "duracion": 15,
       "categoria": "Base de Datos",
-      "completado": true
-    },
-    {
-      "id": "c5d6",
-      "titulo": "Scrum y metodologías ágiles",
-      "duracion": 8,
-      "categoria": "Gestión",
-      "completado": false
+      "descripcion": "Autenticación, base de datos y hosting con Firebase",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     },
     {
       "id": "e7f8",
       "titulo": "Testing con Jest",
       "duracion": 10,
       "categoria": "Testing",
-      "completado": true
+      "descripcion": "Pruebas unitarias y de integración con Jest en proyectos JavaScript",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
     },
     {
       "id": "g9h0",
       "titulo": "Cypress desde cero",
       "duracion": 12,
       "categoria": "Testing",
-      "completado": false
+      "descripcion": "Automatización de pruebas end-to-end con Cypress",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg"
     },
     {
       "id": "i1j2",
       "titulo": "Automatización con Selenium",
       "duracion": 14,
       "categoria": "Testing",
-      "completado": true
+      "descripcion": "Automatiza pruebas de interfaces web con Selenium",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
     },
     {
       "id": "k3l4",
       "titulo": "Desarrollo Móvil con React Native",
       "duracion": 22,
       "categoria": "Mobile",
-      "completado": false
+      "descripcion": "Crea apps móviles nativas con React Native",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
       "id": "m5n6",
       "titulo": "Flutter para Android e iOS",
       "duracion": 24,
       "categoria": "Mobile",
-      "completado": true
+      "descripcion": "Construye aplicaciones móviles multiplataforma con Flutter",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
     },
     {
       "id": "o7p8",
       "titulo": "Swift desde cero",
       "duracion": 20,
       "categoria": "Mobile",
-      "completado": false
+      "descripcion": "Iníciate en el lenguaje Swift para desarrollar en iOS",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
     },
     {
       "id": "q9r0",
       "titulo": "Unity 3D Básico",
       "duracion": 30,
       "categoria": "Videojuegos",
-      "completado": false
+      "descripcion": "Aprende a crear videojuegos con Unity y C#",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
     },
     {
       "id": "s1t2",
       "titulo": "Unreal Engine Introducción",
       "duracion": 28,
       "categoria": "Videojuegos",
-      "completado": true
+      "descripcion": "Comienza a desarrollar videojuegos con Unreal Engine",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg"
     },
     {
       "id": "u3v4",
       "titulo": "C# para videojuegos",
       "duracion": 18,
       "categoria": "Programación",
-      "completado": true
+      "descripcion": "Usa C# en el desarrollo de videojuegos con motores como Unity",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
     },
     {
       "id": "w5x6",
       "titulo": "Blender 3D",
       "duracion": 26,
       "categoria": "Diseño",
-      "completado": false
+      "descripcion": "Modelado, animación y renderizado 3D con Blender",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg"
     },
     {
       "id": "y7z8",
       "titulo": "Photoshop desde cero",
       "duracion": 15,
       "categoria": "Diseño",
-      "completado": true
+      "descripcion": "Edición y retoque de imágenes con Photoshop",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
     },
     {
       "id": "a9b0",
       "titulo": "Ilustrator para principiantes",
       "duracion": 14,
       "categoria": "Diseño",
-      "completado": false
+      "descripcion": "Diseña gráficos vectoriales con Adobe Illustrator",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
     },
     {
       "id": "c1d2",
       "titulo": "SEO para desarrolladores",
       "duracion": 9,
       "categoria": "Marketing",
-      "completado": false
+      "descripcion": "Optimiza sitios web para motores de búsqueda",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
     },
     {
       "id": "e3f4",
       "titulo": "Google Analytics",
       "duracion": 10,
       "categoria": "Marketing",
-      "completado": true
+      "descripcion": "Mide y analiza el tráfico de tu sitio web con Google Analytics",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
     },
     {
       "id": "g5h6",
       "titulo": "Diseño Responsive",
       "duracion": 11,
       "categoria": "Frontend",
-      "completado": true
+      "descripcion": "Diseña sitios web adaptables a distintos dispositivos",
+      "completado": true,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     },
     {
       "id": "i7j8",
       "titulo": "Accesibilidad Web",
       "duracion": 12,
       "categoria": "Frontend",
-      "completado": false
-    },
-    {
-      "id": "k9l0",
-      "titulo": "API REST con Laravel",
-      "duracion": 17,
-      "categoria": "Backend",
-      "completado": true
+      "descripcion": "Haz tus sitios accesibles para personas con discapacidad",
+      "completado": false,
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     }
   ]
 }
