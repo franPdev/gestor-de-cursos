@@ -2,8 +2,11 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Gestor de Cursos: administra y visualiza cursos de forma sencilla.">
-    <meta name="author" content="Franco Paez">
+    <meta
+      name="description"
+      content="Gestor de Cursos: administra y visualiza cursos de forma sencilla."
+    />
+    <meta name="author" content="Franco Paez" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
@@ -19,14 +22,24 @@
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="../css/style.css" />
 
-     <!-- Favicon -->
-    <link rel="icon" href="../images/android-chrome-192x192.png" type="image/x-icon" />
-    <link rel="icon" href="../images/android-chrome-512x512.png" type="image/x-icon" />
-    <link rel="icon" href="../images/apple-touch-icon.png" type="image/x-icon" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="../images/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="../images/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="../images/apple-touch-icon.png"
+      type="image/x-icon"
+    />
     <link rel="icon" href="../images/favicon-16x16.png" type="image/x-icon" />
     <link rel="icon" href="../images/favicon-32x32.png" type="image/x-icon" />
-
-
 
     <title>Gestor de Cursos</title>
   </head>
@@ -72,6 +85,8 @@
           <option value="programación">Programación</option>
           <option value="diseño">Diseño</option>
           <option value="marketing">Marketing</option>
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
           <!-- Agrega más si tienes -->
         </select>
       </div>
@@ -177,28 +192,36 @@
       <!-- Lista de cursos -->
       <div id="lista-cursos" class="row g-3"></div>
 
-      <br>
+      <br />
 
- <footer>
-  <div class="text-center mt-4">
-    <p>&copy;  Gestor de Cursos</p>
-    <p>
-      Desarrollado por franPdev
-      <a href="https://github.com/franPdev" target="_blank" rel="noopener" title="Mi GitHub">
-        <i class="bi bi-github" style="font-size: 1.3em; vertical-align: middle;"></i>
-      </a>
-    </p>
-<ul
-  class="footer-icons"
-  style="list-style: none; padding-left: 0; display: flex; gap: 12px"
->
-  <li><i class="bi bi-code-slash" title="HTML/Código"></i></li>
-  <li><i class="bi bi-palette-fill" title="CSS/Diseño"></i></li>
-  <li><i class="bi bi-bootstrap-fill" title="Bootstrap"></i></li>
-  <li><i class="bi bi-file-earmark-code" title="JavaScript"></i></li>
-</ul>
-  </div>
-</footer>
+      <footer>
+        <div class="text-center mt-4">
+          <p>&copy; Gestor de Cursos</p>
+          <p id="footer-text">
+            Desarrollado por franPdev
+            <a
+              href="https://github.com/franPdev"
+              target="_blank"
+              rel="noopener"
+              title="Mi GitHub"
+            >
+              <i
+                class="bi bi-github"
+                style="font-size: 1.3em; vertical-align: middle"
+              ></i>
+            </a>
+          </p>
+          <ul
+            class="footer-icons"
+            style="list-style: none; padding-left: 0; display: flex; gap: 12px"
+          >
+            <li><i class="bi bi-code-slash" title="HTML/Código"></i></li>
+            <li><i class="bi bi-palette-fill" title="CSS/Diseño"></i></li>
+            <li><i class="bi bi-bootstrap-fill" title="Bootstrap"></i></li>
+            <li><i class="bi bi-file-earmark-code" title="JavaScript"></i></li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
     <div
@@ -231,7 +254,7 @@
     <!-- Script JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="../src/main.js"></script>
-    <script src="../js/script.js"></script>
+
     <script src="../js/busqueda.js"></script>
   </body>
 </html>

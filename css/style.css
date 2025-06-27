@@ -35,15 +35,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 16px;
+  padding-left: 4px;
   padding-right: 16px;
 }
+
+
 
 .navbar-brand {
   font-size: 24px;
   font-weight: 500;
   color: var(--trendy-pink-900);
   text-decoration: none;
+ 
 }
 
 .search-form {
