@@ -3,7 +3,7 @@ let cursos = [];
 document.addEventListener("DOMContentLoaded", () => {
   const buscador = document.getElementById("buscador");
 
-  fetch("http://localhost:3000/cursos")
+  fetch("https://gestor-de-cursos.onrender.com/cursos")
     .then((res) => res.json())
     .then((data) => {
       cursos = data;
