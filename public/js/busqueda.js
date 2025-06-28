@@ -3,11 +3,11 @@ let cursos = [];
 document.addEventListener("DOMContentLoaded", () => {
   const buscador = document.getElementById("buscador");
 
-  fetch("https://gestor-de-cursos.onrender.com/cursos")
+  fetch("https://corsproxy.io/?https://gestor-de-cursos.onrender.com/cursos")
     .then((res) => res.json())
     .then((data) => {
       cursos = data;
-      window.mostrarCursos(cursos); // Usa la función global de main.js
+      window.mostrarCursos(cursos); 
     })
     .catch((err) => {
       document.getElementById("lista-cursos").innerHTML =
