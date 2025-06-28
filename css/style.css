@@ -20,7 +20,7 @@ body {
 
 /* navbar.css */
 .google-style-navbar {
-  background-color: var(--trendy-pink-50);
+  background-color: var(--trendy-pink-300);
   border-bottom: 1px solid var(--trendy-pink-200);
   padding: 16px;
   position: sticky;
