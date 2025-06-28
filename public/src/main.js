@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const API_URL = "https://gestor-de-cursos.onrender.com/";
+  const API_URL = "https://gestor-de-cursos.onrender.com/cursos";
   const listaCursos = document.getElementById("lista-cursos");
   const formCurso = document.getElementById("form-curso");
   const cursoModalEl = document.getElementById("cursoModal");
