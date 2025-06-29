@@ -37,6 +37,11 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+
+
+
+
+
   function actualizarTextos() {
     const tituloApp = document.querySelector(".navbar-brand");
     if (tituloApp) tituloApp.textContent = textos.tituloApp;
@@ -121,10 +126,20 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   async function obtenerCursos() {
+
+    // Mostrar spinner
+    document.getElementById("spinner-cursos").style.display = "block";
+    document.getElementById("lista-cursos").style.display = "none";
+   
     const res = await fetch(API_URL);
     const data = await res.json();
     cursosGlobal = data;
     mostrarCursos(data);
+
+    // Ocultar spinner
+    
+document.getElementById("spinner-cursos").style.display = "none";
+document.getElementById("lista-cursos").style.display = "";
   }
 
   document
